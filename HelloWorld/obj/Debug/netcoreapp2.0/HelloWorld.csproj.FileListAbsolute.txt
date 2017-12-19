@@ -1,0 +1,11 @@
+/Users/oscar/Desktop/riga coding school/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.deps.json
+/Users/oscar/Desktop/riga coding school/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.runtimeconfig.json
+/Users/oscar/Desktop/riga coding school/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.runtimeconfig.dev.json
+/Users/oscar/Desktop/riga coding school/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.dll
+/Users/oscar/Desktop/riga coding school/HelloWorld/bin/Debug/netcoreapp2.0/HelloWorld.pdb
+/Users/oscar/Desktop/riga coding school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.csprojResolveAssemblyReference.cache
+/Users/oscar/Desktop/riga coding school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/oscar/Desktop/riga coding school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/oscar/Desktop/riga coding school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.AssemblyInfo.cs
+/Users/oscar/Desktop/riga coding school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.dll
+/Users/oscar/Desktop/riga coding school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.pdb
