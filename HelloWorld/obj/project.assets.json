@@ -2279,11 +2279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oscar/Desktop/riga coding school/HelloWorld/HelloWorld.csproj",
+      "projectUniqueName": "/Users/oscar/Desktop/riga coding school/Riga-coding-school/HelloWorld/HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "/Users/oscar/Desktop/riga coding school/HelloWorld/HelloWorld.csproj",
+      "projectPath": "/Users/oscar/Desktop/riga coding school/Riga-coding-school/HelloWorld/HelloWorld.csproj",
       "packagesPath": "/Users/oscar/.nuget/packages/",
-      "outputPath": "/Users/oscar/Desktop/riga coding school/HelloWorld/obj",
+      "outputPath": "/Users/oscar/Desktop/riga coding school/Riga-coding-school/HelloWorld/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
