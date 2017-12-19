@@ -3,8 +3,12 @@ namespace HelloWorld
 {
     public class persongreeter
     {
-        public persongreeter()
-        {
-        }
+            public void SayHello()
+            {
+                string myName;
+                myName = Console.ReadLine();
+                Console.WriteLine("Hello World!" + myName);
+            }
+
     }
 }
