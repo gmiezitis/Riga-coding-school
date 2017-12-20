@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator", "calculator\calculator.csproj", "{877CCA89-B15B-4F2F-8B4A-91E50DD29756}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smartercalculator", "smartercalculator\smartercalculator.csproj", "{0A7AF112-FD72-4350-B0D3-98D2492B50EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{877CCA89-B15B-4F2F-8B4A-91E50DD29756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{877CCA89-B15B-4F2F-8B4A-91E50DD29756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{877CCA89-B15B-4F2F-8B4A-91E50DD29756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7AF112-FD72-4350-B0D3-98D2492B50EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7AF112-FD72-4350-B0D3-98D2492B50EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7AF112-FD72-4350-B0D3-98D2492B50EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7AF112-FD72-4350-B0D3-98D2492B50EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

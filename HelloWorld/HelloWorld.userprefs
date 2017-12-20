@@ -1,11 +1,12 @@
-﻿<Properties StartupConfiguration="{877CCA89-B15B-4F2F-8B4A-91E50DD29756}|Default">
+﻿<Properties StartupConfiguration="{0A7AF112-FD72-4350-B0D3-98D2492B50EB}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="calculator/calculations.cs">
     <Files>
       <File FileName="persongreeter.cs" Line="1" Column="1" />
       <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="calculator/Program.cs" Line="10" Column="13" />
-      <File FileName="calculator/calculations.cs" Line="1" Column="1" />
+      <File FileName="calculator/Program.cs" Line="22" Column="39" />
+      <File FileName="calculator/calculations.cs" Line="22" Column="51" />
+      <File FileName="smartercalculator/Program.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.calculator PreferredExecutionTarget="MonoDevelop.Default" />
@@ -14,5 +15,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.smartercalculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
