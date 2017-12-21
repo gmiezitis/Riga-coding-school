@@ -5,4 +5,27 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="calculator\Program.cs" />
+    <Compile Remove="calculator\calculations.cs" />
+    <Compile Remove="calculator\obj\Debug\netcoreapp2.0\calculator.AssemblyInfo.cs" />
+    <Compile Remove="persongreeter\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="calculator\bin\Debug\netcoreapp2.0\calculator.deps.json" />
+    <None Remove="calculator\bin\Debug\netcoreapp2.0\calculator.dll" />
+    <None Remove="calculator\bin\Debug\netcoreapp2.0\calculator.pdb" />
+    <None Remove="calculator\bin\Debug\netcoreapp2.0\calculator.runtimeconfig.dev.json" />
+    <None Remove="calculator\bin\Debug\netcoreapp2.0\calculator.runtimeconfig.json" />
+    <None Remove="calculator\obj\calculator.csproj.nuget.cache" />
+    <None Remove="calculator\obj\calculator.csproj.nuget.g.props" />
+    <None Remove="calculator\obj\calculator.csproj.nuget.g.targets" />
+    <None Remove="calculator\obj\project.assets.json" />
+    <None Remove="calculator\obj\Debug\netcoreapp2.0\calculator.AssemblyInfoInputs.cache" />
+    <None Remove="calculator\obj\Debug\netcoreapp2.0\calculator.csproj.CoreCompileInputs.cache" />
+    <None Remove="calculator\obj\Debug\netcoreapp2.0\calculator.csproj.FileListAbsolute.txt" />
+    <None Remove="calculator\obj\Debug\netcoreapp2.0\calculator.csprojResolveAssemblyReference.cache" />
+    <None Remove="calculator\obj\Debug\netcoreapp2.0\calculator.dll" />
+    <None Remove="calculator\obj\Debug\netcoreapp2.0\calculator.pdb" />
+  </ItemGroup>
 </Project>

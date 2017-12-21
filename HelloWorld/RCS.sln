@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld.csproj", "{1467B3B8-3E36-4C9E-99E9-67DB19A83B67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartcalculator", "..\Smartcalculator\Smartcalculator.csproj", "{71B40A90-20F1-4E8A-A90B-D82DA3F36C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyList", "..\BuyList\BuyList.csproj", "{0498C83B-B696-48D1-8D50-B7BC819633BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,16 @@ Global
 		{1467B3B8-3E36-4C9E-99E9-67DB19A83B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1467B3B8-3E36-4C9E-99E9-67DB19A83B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1467B3B8-3E36-4C9E-99E9-67DB19A83B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B40A90-20F1-4E8A-A90B-D82DA3F36C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B40A90-20F1-4E8A-A90B-D82DA3F36C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B40A90-20F1-4E8A-A90B-D82DA3F36C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B40A90-20F1-4E8A-A90B-D82DA3F36C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		BaseDirectory = .
 	EndGlobalSection
 EndGlobal
