@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartcalculator", "..\Smart
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyList", "..\BuyList\BuyList.csproj", "{0498C83B-B696-48D1-8D50-B7BC819633BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList", "..\TodoList\TodoList.csproj", "{F392743B-2D8C-4242-A314-52FA2CF8D7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListFunctionality", "..\TodoListFunctionality\TodoListFunctionality.csproj", "{30D7A49A-B5BF-43AC-A26A-BF16187A691D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newBuyList", "..\newBuyList\newBuyList.csproj", "{40FAA8C7-D880-41EB-B995-F8B54DE5F065}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,18 @@ Global
 		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0498C83B-B696-48D1-8D50-B7BC819633BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F392743B-2D8C-4242-A314-52FA2CF8D7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F392743B-2D8C-4242-A314-52FA2CF8D7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F392743B-2D8C-4242-A314-52FA2CF8D7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F392743B-2D8C-4242-A314-52FA2CF8D7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D7A49A-B5BF-43AC-A26A-BF16187A691D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D7A49A-B5BF-43AC-A26A-BF16187A691D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D7A49A-B5BF-43AC-A26A-BF16187A691D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D7A49A-B5BF-43AC-A26A-BF16187A691D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FAA8C7-D880-41EB-B995-F8B54DE5F065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FAA8C7-D880-41EB-B995-F8B54DE5F065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FAA8C7-D880-41EB-B995-F8B54DE5F065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FAA8C7-D880-41EB-B995-F8B54DE5F065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		BaseDirectory = .

@@ -1,20 +1,35 @@
-﻿<Properties StartupConfiguration="{71B40A90-20F1-4E8A-A90B-D82DA3F36C34}|Default">
+﻿<Properties StartupConfiguration="{40FAA8C7-D880-41EB-B995-F8B54DE5F065}|Default">
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="persongreeter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Smartcalculator/Program.cs">
     <Files>
-      <File FileName="../BuyList/Program.cs" Line="11" Column="13" />
+      <File FileName="../newBuyList/EmptyClass.cs" Line="62" Column="13" />
+      <File FileName="../newBuyList/Program.cs" Line="22" Column="1" />
       <File FileName="../Smartcalculator/Program.cs" Line="45" Column="110" />
-      <File FileName="persongreeter.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="RCS" expanded="True">
+            <Node name="Smartcalculator" expanded="True">
+              <Node name="Smartcalculator" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.RCS PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/oscar/Desktop/riga coding school/Riga-coding-school/TodoList/Program.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Smartcalculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BuyList PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.newBuyList PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TodoList PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
