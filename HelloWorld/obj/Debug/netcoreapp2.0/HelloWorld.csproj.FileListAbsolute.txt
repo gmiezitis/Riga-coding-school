@@ -20,3 +20,14 @@
 /Users/oscar/Desktop/riga coding school/Riga-coding-school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.AssemblyInfo.cs
 /Users/oscar/Desktop/riga coding school/Riga-coding-school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.dll
 /Users/oscar/Desktop/riga coding school/Riga-coding-school/HelloWorld/obj/Debug/netcoreapp2.0/HelloWorld.pdb
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.deps.json
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.runtimeconfig.json
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.runtimeconfig.dev.json
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.dll
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\bin\Debug\netcoreapp2.0\HelloWorld.pdb
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.AssemblyInfo.cs
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.dll
+C:\Users\dzene\source\repos\Riga-coding-school\HelloWorld\obj\Debug\netcoreapp2.0\HelloWorld.pdb
