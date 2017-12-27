@@ -1,0 +1,5 @@
+C:\Users\dzene\source\repos\Riga-coding-school\TodoListFunctionality\bin\Debug\TodoListFunctionality.dll
+C:\Users\dzene\source\repos\Riga-coding-school\TodoListFunctionality\bin\Debug\TodoListFunctionality.pdb
+C:\Users\dzene\source\repos\Riga-coding-school\TodoListFunctionality\obj\Debug\TodoListFunctionality.csproj.CoreCompileInputs.cache
+C:\Users\dzene\source\repos\Riga-coding-school\TodoListFunctionality\obj\Debug\TodoListFunctionality.dll
+C:\Users\dzene\source\repos\Riga-coding-school\TodoListFunctionality\obj\Debug\TodoListFunctionality.pdb

@@ -1,0 +1,11 @@
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\bin\Debug\netcoreapp2.0\newBuyList.deps.json
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\bin\Debug\netcoreapp2.0\newBuyList.runtimeconfig.json
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\bin\Debug\netcoreapp2.0\newBuyList.runtimeconfig.dev.json
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\bin\Debug\netcoreapp2.0\newBuyList.dll
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\bin\Debug\netcoreapp2.0\newBuyList.pdb
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\obj\Debug\netcoreapp2.0\newBuyList.csprojResolveAssemblyReference.cache
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\obj\Debug\netcoreapp2.0\newBuyList.csproj.CoreCompileInputs.cache
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\obj\Debug\netcoreapp2.0\newBuyList.AssemblyInfoInputs.cache
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\obj\Debug\netcoreapp2.0\newBuyList.AssemblyInfo.cs
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\obj\Debug\netcoreapp2.0\newBuyList.dll
+C:\Users\dzene\source\repos\Riga-coding-school\newBuyList\obj\Debug\netcoreapp2.0\newBuyList.pdb
