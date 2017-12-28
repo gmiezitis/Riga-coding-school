@@ -7,23 +7,19 @@
         mc:Ignorable="d"
         Title="TODO APP" Height="350" Width="525">
     <Grid Background="WhiteSmoke" Margin="0,0,0,-11">
-        <TextBox Background="WhiteSmoke" x:Name="BuyListItemName" HorizontalAlignment="Left" Height="73" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165" Margin="46,57,0,0"/>
+        <TextBox Background="WhiteSmoke" x:Name="BuyListItemName" HorizontalAlignment="Left" Height="73" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165" Margin="46,57,0,0"/>
         <Button Background="WhiteSmoke" x:Name="AddListItemButton" Click="AddListItemButton_Click" Content="Pievienot pirkumu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Margin="308,57,0,0" Height="62"/>
-        <ScrollViewer Margin="65,218,249,36">
-            <ItemsControl x:Name="BuyItmesListControl" RenderTransformOrigin="0.5,0.5" Height="80" Width="188">
-                <ItemsControl.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-0.179"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </ItemsControl.RenderTransform>
-            </ItemsControl>
+        <ScrollViewer Margin="65,218,203,10">
+            <ListBox x:Name="BuyItmesListControl" SelectionMode="Multiple" RenderTransformOrigin="0.5,0.5" Height="80" Width="188">
+            </ListBox>
         </ScrollViewer>
-        <Image x:Name="grocery" Source="grocery.jpg" Margin="318,138,0,0"> 
-            
+        <Image x:Name="grocery" Source="grocery.jpg" Margin="263,137,-62,117" RenderTransformOrigin="0.794,0.671">
+
         </Image>
+        <Button Content="Saglabāt" HorizontalAlignment="Left" Margin="395,254,0,0" VerticalAlignment="Top" Width="102" Height="40" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="46,36,0,0" TextWrapping="Wrap" Text="Ievadīt pirkumu!" VerticalAlignment="Top" Width="116"/>
+        <Button Content="Ieladēt lietas" HorizontalAlignment="Left" Margin="404,229,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Dzēst" HorizontalAlignment="Left" Margin="446,57,0,0" VerticalAlignment="Top" Width="51" Height="62" Click="Button_Click_2"/>
 
 
     </Grid>

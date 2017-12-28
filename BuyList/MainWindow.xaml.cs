@@ -16,18 +16,20 @@ using System.Windows.Shapes;
 namespace BuyList
 {
     using System.Collections.ObjectModel;
+    using System.IO;
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
         public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
+        
         public MainWindow()
         {
             InitializeComponent();
             // izveidojam mainigo
                 
-          BuyListItemName.Text = "Lūdzu ievadiet pirkumu";
+          
             this.BuyItemsList.Add("āboli");
             this.BuyItemsList.Add("Bumbieri");
        
@@ -46,6 +48,35 @@ namespace BuyList
 
             //ierakstam ieguto vertibu teksta blo-ka
             this.BuyItemsList.Add(input);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            File.WriteAllLines(@"D:/mans_fails.txt", BuyItemsList);
+        }   
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var TodosFromFiles = File.ReadAllLines(@"D:/mans_fails.txt");
+            for (int i = 0; i < TodosFromFiles.Length; i++)
+            {
+                var currentTodo = TodosFromFiles[i];
+                    BuyItemsList.Add(currentTodo);
+            }
+            
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            var selectedItems = BuyItmesListControl.SelectedItems;
+            for (int i = 0; i < selectedItems.Count; i++)
+
+           
+            {
+                var selectedItem = selectedItems[i] as string;
+                BuyItemsList.Remove(selectedItem as string);
+            }
+            
         }
     }
 }
