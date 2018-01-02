@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWords", "FindWords\FindWords.csproj", "{24FDF2AF-EE8A-4D9F-8766-744F44B0FCAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24FDF2AF-EE8A-4D9F-8766-744F44B0FCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FDF2AF-EE8A-4D9F-8766-744F44B0FCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FDF2AF-EE8A-4D9F-8766-744F44B0FCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FDF2AF-EE8A-4D9F-8766-744F44B0FCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE34F011-3754-46A1-AD91-AB92B624DEAF}
+	EndGlobalSection
+EndGlobal
