@@ -23,7 +23,11 @@ namespace BuyList
     public partial class MainWindow : Window
     {
         public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
+        public event StartupEventHandler Startup;
         
+
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -49,12 +53,12 @@ namespace BuyList
             //ierakstam ieguto vertibu teksta blo-ka
             this.BuyItemsList.Add(input);
         }
-
+        // izveidoj'am pogu , kas ielādē saglabātos datos no mapes
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             File.WriteAllLines(@"D:/mans_fails.txt", BuyItemsList);
         }   
-
+        //funkcijas kas nolasa datus
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             var TodosFromFiles = File.ReadAllLines(@"D:/mans_fails.txt");
@@ -65,7 +69,7 @@ namespace BuyList
             }
             
         }
-
+        // funkcija lai varētu iezīmēt multiple lietas 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             var selectedItems = BuyItmesListControl.SelectedItems;
@@ -78,5 +82,6 @@ namespace BuyList
             }
             
         }
+        
     }
 }
