@@ -32,14 +32,19 @@ namespace BuyList
         {
             InitializeComponent();
             // izveidojam mainigo
+            var allItemsFromFile = System.IO.File.ReadAllLines(@"D:/mans_fails.txt");
                 
           
             this.BuyItemsList.Add("āboli");
             this.BuyItemsList.Add("Bumbieri");
        
-        //pasakām BuyItemListControl ka jaizmanto m'usu saraksts
-        // kā rādamo lietu avots (jāskatās no saraksta, ko rādīt) 
-        this.BuyItmesListControl.ItemsSource = this.BuyItemsList;
+           //pasakām BuyItemListControl ka jaizmanto m'usu saraksts
+            // kā rādamo lietu avots (jāskatās no saraksta, ko rādīt) 
+            this.BuyItmesListControl.ItemsSource = this.BuyItemsList;
+            foreach 
+            {BuyItemsList.Add(someItemsFromFile);}
+            
+        
            
         }
 

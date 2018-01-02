@@ -15,14 +15,33 @@ namespace FindWords
             Console.WriteLine("Ievadiet vārdu");
             Console.ReadLine();
         }
-         private void BuyItemsList(object sender, RoutedEventArgs e)
-        {
-            var TodosFromFiles = File.ReadAllLines(@"C:\Users\dzene\source\repos\Riga-coding-school\FindWords\FindWords\words.txt");
-            for (int i = 0; i < TodosFromFiles.Length; i++)
+         
+       {
+            var uniqueLetters = inputAsText.Distinct().ToArray();
+
+        string[] Lines = System.IO.File.ReadAllLines(@"C:\Users\dzene\source\repos\Riga-coding-school\FindWords\FindWords\words.txt");
+            foreach(string wordFromFile in Lines)
+            
             {
-                var currentTodo = TodosFromFiles[i];
+                bool missingLetterFound = false;
+                foreach (char letterFromFileWord in wordFromFile) ;
+                {
+                    if (uniqueLetters.Contains(letterFromFileWord) == false) ;
+                    {
+                        missingLetterFound = true;
+                        break;
+            
+
+                    
                 
-            }
+                
+                 if(missingLetterFound == false)
+                {
+                    Console.WriteLine(wordFromFile);
+                }
+
+
+
         }
     }
 }

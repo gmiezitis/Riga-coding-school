@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Namespace     
 namespace Atmini_ciparu
 {
+    //main class
     class Program
     {
         static int guess;
         static int answer;
-
+        //Entry point method
         static void Main(string[] args)
         {
             Console.Title = "Atmini ciparu";
