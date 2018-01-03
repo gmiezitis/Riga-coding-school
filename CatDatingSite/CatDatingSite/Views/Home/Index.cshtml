@@ -1,21 +1,26 @@
-﻿@model CatDatingSite.Models.CatProfile
+﻿@model List<CatDatingSite.Models.CatProfile>
 @{
-    ViewBag.Title = "Home Page";
+	ViewBag.Title = "Home Page";
 }
 
 
+<!-- kad v'elamies izsaukt c# kodu, lietojam at simbolu-->
 
+@foreach (var cat in Model)
+{
 <div class="row">
-    <div class="col-md-4">
-        <h2>Cat name: @Model.CatName</h2>
-		<p> Cat age is @Model.CatAge</p>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-
-   
+	<div class="col-md-12">
+		<h2>Cat name: @cat.CatName</h2>
+		<p> Cat age is @cat.CatAge</p>
+		<img src="@cat.CatImage" width="200" />
+		<p>
+			Mjauuu mur mur , feed me no question just feed me !!!!.
+		</p>
+		<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+	</div>
 </div>
+		}
+
+
+
+	

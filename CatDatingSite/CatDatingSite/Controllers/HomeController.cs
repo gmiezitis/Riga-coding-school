@@ -12,8 +12,36 @@ namespace CatDatingSite.Controllers
     {
         public ActionResult Index()
         {
-            var catFromDB = new CatProfile();
-            return View(catFromDB);
+        
+
+                //izveido kaki
+                var catFromDB = new CatProfile();
+            catFromDB.CatName = "Reinis";
+            catFromDB.CatAge = 15;
+            catFromDB.CatImage = "http://s4.thingpic.com/images/Yx/zFbS5iJFJMYNxDp9HTR7TQtT.png";
+
+            //pievieno kakji kaku sarakstam
+           
+
+            var anothercatFromDB = new CatProfile();
+            anothercatFromDB.CatName = "Second Reinis";
+            anothercatFromDB.CatAge = 16;
+            anothercatFromDB.CatImage = "http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bb8e.png";
+
+            using (var catDb = new catDb())
+            {
+                //catDb.CatProfiles.Add(anothercatFromDB);
+               // catDb.CatProfiles.Add(catFromDB);
+               // saglabat datu bāze veiktās izmaiņas
+               // catDb.SaveChanges();
+
+                // iegut kaku sarakstu no kaku datubazes
+                var catListFromDb = catDb.CatProfiles.ToList();
+
+                //izveido skatu , tam iekšā iedodot kaku sarakstu
+                return View(catListFromDb); 
+            }
+            
         }
 
         public ActionResult About()
