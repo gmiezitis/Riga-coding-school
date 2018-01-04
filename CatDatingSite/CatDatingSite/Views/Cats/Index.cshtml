@@ -1,0 +1,29 @@
+﻿@model List<CatDatingSite.Models.CatProfile>
+@{
+	ViewBag.Title = "Home Page";
+}
+@Html.ActionLink("pievienot jaunu kaki", "AddCat", "Cats")
+
+
+<!-- kad vēlamies izsaukt c# kodu, lietojam at simbolu-->
+
+@foreach (var cat in Model)
+{
+	@Html.ActionLink("rediģēt kaķi", "EditCat", "Cats", new { editableCatId = cat.CatId }, null)
+	<div class="row">
+		<div class="col-md-12">
+			@Html.ActionLink("Nodzest kaki", "DeleteCats", "Cats", new { catId = cat.CatId }, null)
+
+			<h2>Cat name: @cat.CatName</h2>
+			<p> Cat age is @cat.CatAge</p>
+			<img src="@cat.CatImage" width="200" />
+			<p>
+				@cat.CatDescription
+			</p>
+			<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+		</div>
+	</div>
+}
+
+
+
