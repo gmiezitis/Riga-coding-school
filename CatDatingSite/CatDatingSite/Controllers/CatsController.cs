@@ -7,9 +7,11 @@ using System.Web.Mvc;
 namespace CatDatingSite.Controllers
 
 {
-    using System.Data.Entity.Migrations;
+     using System.Data.Entity;
      using CatDatingSite.Models;
-    using System.Net;
+      using System.Net;
+    using System.IO;
+
     public class CatsController : Controller
     {
         // GET: Cats
@@ -17,6 +19,7 @@ namespace CatDatingSite.Controllers
         {
             using (var catDb = new catDb())
             {
+
                 var catList = catDb.CatProfiles.ToList();
                 return View(catList);
             }
@@ -32,7 +35,7 @@ namespace CatDatingSite.Controllers
         {
             if (ModelState.IsValid == false)
             {
-                return RedirectToAction("Index");
+                return View(userCreatedCat);
             }
             // izveido savienojumu ar datu bazi
             using (var catDb = new catDb())
@@ -65,24 +68,48 @@ namespace CatDatingSite.Controllers
         }
 
         [HttpPost]
-        public ActionResult EditCat(int editableCatId)
+
+        public ActionResult EditCat(CatProfile catProfile, HttpPostedFileBase uploadedPicture)
         {
-            using (var catDb = new catDb()) 
+            
+                if (ModelState.IsValid == false)
+                {
+                    return View(catProfile);
+                }
+                using (var catDb = new catDb())
             {
-                var editableCat = catDb.CatProfiles.First(catProfile => catProfile.CatId == editableCatId);
-                return View("EditCat");
-            }
-        }
-        public ActionResult EditCat(CatProfile catProfile)
-        {
-            using (var catDb = new catDb())
-            {
-                // japievieno using Sysrem data .... 
-                catDb.CatProfiles.AddOrUpdate(catProfile);
+                var profilePic = new Models.File();
+                //saglabajam bildes faila nosaukumu
+                profilePic.FileName = Path.GetFileName(uploadedPicture.FileName);
+                //saglabajam bildes tipu
+                profilePic.ContentType = uploadedPicture.ContentType;
+                //pasakam profila bildei, kurs kaka profils ir kaka profils kam si bilde pieder
+                profilePic.CatProfileId = catProfile.CatId;
+                profilePic.CatProfile = catProfile;
+                //imantojam binary reader lai parvērstu bildi baitos
+                using (var reader = new BinaryReader(uploadedPicture.InputStream))
+                {
+                    profilePic.Content = reader.ReadBytes(uploadedPicture.ContentLength);
+                }
+                //Pievieno profila bildes datubazes ierakstu files tabulai
+                catDb.Files.Add(profilePic);
+                //pasakam kaku profilam kas ir vina profila bilde
+                catProfile.ProfilePicture = profilePic;
+                // pievienot using system.DataEntity
+                catDb.Entry(catProfile).State = EntityState.Modified;
                 catDb.SaveChanges();
             }
             return RedirectToAction("Index");
         }
+        public ActionResult EditCat(int editableCatId)
+        {
+            using (var catDb = new catDb()) 
+            {
+                var editableCat = catDb.CatProfiles.First(catprofile => catprofile.CatId == editableCatId);
+                return View("EditCat", editableCat);
+            }
+        }
+        
 
         public ActionResult About()
         {
