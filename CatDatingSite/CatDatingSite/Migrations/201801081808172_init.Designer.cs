@@ -7,13 +7,13 @@ namespace CatDatingSite.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class addnewfield : IMigrationMetadata
+    public sealed partial class init : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addnewfield));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
         
         string IMigrationMetadata.Id
         {
-            get { return "201801041836118_add new field"; }
+            get { return "201801081808172_init"; }
         }
         
         string IMigrationMetadata.Source

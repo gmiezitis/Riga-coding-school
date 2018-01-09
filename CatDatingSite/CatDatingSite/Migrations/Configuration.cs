@@ -10,7 +10,6 @@ namespace CatDatingSite.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "CatDatingSite.Models.catDb";
         }
 
         protected override void Seed(CatDatingSite.Models.catDb context)

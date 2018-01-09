@@ -29,5 +29,7 @@ namespace CatDatingSite.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CatDatingSite.Models.Blog> Blog { get; set; }
     }
 }

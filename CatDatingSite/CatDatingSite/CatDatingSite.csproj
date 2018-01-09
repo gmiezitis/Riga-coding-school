@@ -190,30 +190,20 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\CatsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201801031810281_InitialCreate.cs" />
-    <Compile Include="Migrations\201801031810281_InitialCreate.Designer.cs">
-      <DependentUpon>201801031810281_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201801041829086_ made catname required . Because i wanted it .cs" />
-    <Compile Include="Migrations\201801041829086_ made catname required . Because i wanted it .Designer.cs">
-      <DependentUpon>201801041829086_ made catname required . Because i wanted it .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201801041836118_add new field.cs" />
-    <Compile Include="Migrations\201801041836118_add new field.Designer.cs">
-      <DependentUpon>201801041836118_add new field.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201801051833332_add files2.cs" />
-    <Compile Include="Migrations\201801051833332_add files2.Designer.cs">
-      <DependentUpon>201801051833332_add files2.cs</DependentUpon>
+    <Compile Include="Migrations\201801081808172_init.cs" />
+    <Compile Include="Migrations\201801081808172_init.Designer.cs">
+      <DependentUpon>201801081808172_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Blog.cs" />
     <Compile Include="Models\catDb.cs" />
     <Compile Include="Models\CatProfile.cs" />
     <Compile Include="Models\File.cs" />
@@ -283,6 +273,9 @@
     <Content Include="Views\Cats\Index.cshtml" />
     <Content Include="Views\Cats\AddCat.cshtml" />
     <Content Include="Views\Cats\EditCat.cshtml" />
+    <Content Include="Views\Blog\blog.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Blog\AddUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -301,17 +294,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201801031810281_InitialCreate.resx">
-      <DependentUpon>201801031810281_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201801041829086_ made catname required . Because i wanted it .resx">
-      <DependentUpon>201801041829086_ made catname required . Because i wanted it .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201801041836118_add new field.resx">
-      <DependentUpon>201801041836118_add new field.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201801051833332_add files2.resx">
-      <DependentUpon>201801051833332_add files2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201801081808172_init.resx">
+      <DependentUpon>201801081808172_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

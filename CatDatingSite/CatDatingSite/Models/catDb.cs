@@ -13,5 +13,6 @@ namespace CatDatingSite.Models
 
         public DbSet<File> Files { get; set; }
 
+        public DbSet<Blog> Blogs { get; set; }
     }
 }
